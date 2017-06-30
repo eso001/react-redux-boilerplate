@@ -1,4 +1,4 @@
-import app, {epics as appEpics} from './pageContainers/app/redux'
+import app, {epics as appEpics} from './pageContainers/app/dux'
 import {combineReducers} from 'redux';
 import { combineEpics } from 'redux-observable'
 

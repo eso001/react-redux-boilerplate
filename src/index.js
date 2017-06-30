@@ -5,7 +5,7 @@ import { createStore, applyMiddleware } from 'redux'
 import { createEpicMiddleware } from 'redux-observable';
 
 import App from './pageContainers/app/AppContainer'
-import reducers, {epics} from './ducks'
+import reducers, {epics} from './dux'
 
 const epicMiddleware = createEpicMiddleware(epics)
 const store = createStore(reducers, applyMiddleware(epicMiddleware))
