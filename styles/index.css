@@ -1,0 +1,16 @@
+body {
+    background-color: #444;
+    color: white;
+    font-size: 36px;
+}
+.app {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.welcome {
+    margin-bottom: 15px;
+    font-size: 50px;
+    color: tomato;
+    display: block;
+}
